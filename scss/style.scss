@@ -16,29 +16,27 @@
 
 #header {
   display: flex;
-  background-color: rgb(195, 158, 24);
-  justify-content: space-around;
-  
- 
-  
-  
-
-
+  background-color: rgb(43, 69, 112);
+  /*justify-content: space-around;*/
+  align-items: center;
+  padding: 1.5rem;
+}
+.navflex{
+  display: flex;
 }
 
 body{
-  background-color: rgb(35, 58, 233);
+  background-color: rgb(168, 208, 219);
 }
 .menu {
   padding: 0.5rem;
   display: flex;
   font-size: 0.5rem;
  
+}
+.logo{
+  height: 5rem;
   
-  
-  
-  
- 
 }
 
 #videos{
@@ -55,6 +53,7 @@ body{
   color: aliceblue;
   text-decoration: none;
   font-size: larger;
+  margin-left: 1rem;
   
 
 }
@@ -95,7 +94,7 @@ body{
 .fotoproducto2 {
   margin-top: 150px;
   margin-left: 400px;
-  border: 20px inset rgb(218, 194, 15);
+  border: 20px inset rgb(163, 122, 116);
 }
 
 
@@ -109,7 +108,7 @@ body{
   color: rgb(0, 0, 0);
   padding: 30px;
   margin: 80px 40px 80px;
-  border: 20px inset rgb(218, 194, 15);
+  border: 20px inset rgb(163, 122, 116);
   /* position: sticky ;*/
   top: 30px;
 }
@@ -198,7 +197,7 @@ body{
 
 .navbar {
   font-size: large;
-  background-color: rgb(242, 185, 16);
+  background-color: rgb(163, 122, 116);
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -208,7 +207,7 @@ body{
 }
 
 .container-fluid {
-  background-color: rgb(242, 185, 16);
+  background-color: rgb(163, 122, 116);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,7 +219,7 @@ body{
 
 .footerAbsolute{
 
-  background-color: rgb(242, 185, 16);
+  background-color: rgb(43, 69, 112);
   position: absolute;
   bottom: 0px;
   margin-left:auto;
@@ -230,7 +229,7 @@ body{
   display: flex;
 }
 .footerNormal{
-  background-color: rgb(195, 158, 24);
+  background-color: rgb(43, 69, 112);
   bottom: 0px;
   margin-left:auto;
   margin-right:auto;
@@ -285,24 +284,24 @@ p{
 }
  
 .historiaWilly{
-    border-color: rgb(231, 189, 62);
+    border-color: rgb(163, 122, 116);
   border-width: 1rem;
     border-style: inset;
     padding-top: 0.5rem;
     font-size: large;
     margin-top: 1rem;
-    background-color: rgb(71, 144, 234);
+    background-color: rgb(113, 128, 172);
     
 
 }
 .parrafos{
-    border-color: rgb(231, 189, 62) ;
+    border-color: rgb(163, 122, 116) ;
     border-width: 1rem;
       border-style: inset;
       padding-top: 0.5rem;
       font-size: x-large;
       color: rgb(0, 0, 0);
-      background-color: rgb(71, 144, 234);
+      background-color: rgb(113, 128, 172);
 }
 .carousel{
     border-color: rgb(0, 0, 0);
@@ -324,7 +323,7 @@ p{
 }
 .historiaWilly{
     font-size: large;
-    color: bisque;
+    color: white;
 }
 .serviciosdiv{
     display: grid;
@@ -348,3 +347,9 @@ p{
 
     
 }    
+.agradecimientos{
+  color:white ;
+}
+.agradecimientos2{
+  color: white;
+}
